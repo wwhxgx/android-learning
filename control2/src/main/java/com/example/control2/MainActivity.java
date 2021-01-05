@@ -2,6 +2,7 @@ package com.example.control2;
 
 import android.app.Activity;
 import android.content.res.TypedArray;
+import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.view.PagerAdapter;
@@ -204,6 +205,7 @@ public class MainActivity extends Activity {
             }
         });
         searchView.setSubmitButtonEnabled(true);
+
     }
 
     private int getImageSource() {

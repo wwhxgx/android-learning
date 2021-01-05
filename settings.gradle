@@ -1,3 +1,5 @@
+include ':support_control'
+include ':permission'
 include ':control2'
 include ':control'
 include ':layout'
