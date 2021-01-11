@@ -1,3 +1,5 @@
+include ':fragment'
+include ':intent'
 include ':support_control'
 include ':permission'
 include ':control2'
